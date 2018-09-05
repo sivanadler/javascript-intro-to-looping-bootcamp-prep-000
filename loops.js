@@ -22,10 +22,10 @@ function whileLoop(number){
 
 function doWhileLoop(array){
   function incrementVariable() {
-    i = i + 1;
+    i = i - 1;
   }
   do {
-    console.log(array.pop);
+    console.log(array);
     incrementVariable();
   } while (array.length === 0);
   return array
