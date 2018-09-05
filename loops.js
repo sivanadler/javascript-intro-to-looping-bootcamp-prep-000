@@ -20,13 +20,13 @@ function whileLoop(number){
     }
 }
 
-function doWhileLoop(array){
-  function incrementVariable() {
-    i = i - 1;
-  }
-  do {
-    console.log();
-    incrementVariable(i);
-  } while (i>0);
-  return array
-}
+// function doWhileLoop(array){
+//   function incrementVariable() {
+//     i = i - 1;
+//   }
+//   do {
+//     console.log();
+//     incrementVariable(i);
+//   } while (i>0);
+//   return array
+// }
