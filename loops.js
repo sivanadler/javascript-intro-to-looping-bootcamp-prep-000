@@ -30,3 +30,10 @@ function whileLoop(number){
 //   } while (i>0);
 //   return array
 // }
+
+function doWhileLoop(array){
+  do {
+    array.pop()
+  } while (array.length>0 && maybeTrue())
+  return array
+}
