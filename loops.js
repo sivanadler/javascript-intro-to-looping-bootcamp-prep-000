@@ -21,11 +21,12 @@ function whileLoop(number){
 }
 
 function doWhileLoop(array){
-do {
-  array.pop()
-} while (array.length>0 && maybeTrue())
-return array
+  function incrementVariable() {
+    i = i - 1;
+  }
+  do {
+    console.log();
+    incrementVariable(i);
+  } while (i>0);
+  return array
 }
-
-do_while_arr = ['a','b','c'];
-console.log(doWhileLoop(do_while_arr))
